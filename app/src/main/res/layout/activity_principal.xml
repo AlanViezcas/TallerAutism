@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.lany.tallerautism.Principal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/imgTargetas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+
+
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/tarjetas" />
+
+        <ImageButton
+            android:id="@+id/otra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_weight="1"
+            android:adjustViewBounds="false"
+            android:onClick="onClickNt"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/nueva" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="onClickBlue"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/blue" />
+
+    </LinearLayout>
+
+</LinearLayout>
